@@ -2,7 +2,7 @@ import os
 
 from pyrogram import Client as Bot
 
-from config import API_ID, API_HASH, BOT_TOKEN, DOWNLOAD_LOCATION
+from config import API_ID, API_HASH, BOT_TOKEN
 
 bot = Bot(
     ":memory:",
