@@ -6,7 +6,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 @Client.on_message(filters.command(["start", "start@Pyro_Tg_Bot"]))
 async def start(_, message: Message):
-    await message.send_document("BQACAgUAAxkBAAPBYHHdnL_9O2i1Stc49TzTMDb3ZeIAApYCAAIIdpFXJ-zFnfAtGloeBA")
+    await Client.send_document("BQACAgUAAxkBAAPBYHHdnL_9O2i1Stc49TzTMDb3ZeIAApYCAAIIdpFXJ-zFnfAtGloeBA")
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name} 😉️!</b>
 Above File is sended by Pyro Tg Bot!
