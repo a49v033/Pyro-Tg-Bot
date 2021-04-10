@@ -1,0 +1,25 @@
+{
+  "name": "Pyro-Tg-Bot",
+  "description": "A Bot written in pyro for Noob/Beginners like me",
+  "keywords": ["noobbot", "pyrogram", "telegram"],
+  "repository": "https://github.com/Itz-fork/Pyro-Tg-Bot",
+  "stack": "container",
+  "env": {
+    "API_ID": {
+      "description": "Your API_ID from my.telegram.org",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Your API_HASH from my.telegram.org",
+      "required": true
+    },
+    "SESSION_NAME": {
+      "description": "Your Pyrogram String Session. Read wiki.",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Your Bot Token From @BotFather",
+      "required": true
+    }
+  }
+}
