@@ -50,4 +50,4 @@ Made by **@Bruh_0x** for Noob/Beginners Like Him! (Me) """,
 
 @Client.on_callback_query(filters.regex("stick"))
 async def stick(_, query: CallbackQuery):
-    await Message.reply_sticker("CAACAgUAAxkBAAIEyGByiGplc4_5-OJ7eujZWlkZx7WoAAKRAQAC7thQV25-qe8JhyOhHgQ")
+    await Message.send_sticker("CAACAgUAAxkBAAIEyGByiGplc4_5-OJ7eujZWlkZx7WoAAKRAQAC7thQV25-qe8JhyOhHgQ")
