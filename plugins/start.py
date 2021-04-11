@@ -50,6 +50,6 @@ Made by **@Bruh_0x** for Noob/Beginners Like Him! (Me) """,
 
 @Client.on_callback_query(filters.regex("stick"))
 async def stick(_, query: CallbackQuery):
-    chat_id=message.chat.id,
+    chat_id=Message.chat.id,
     sticker="CAACAgUAAxkBAAIEyGByiGplc4_5-OJ7eujZWlkZx7WoAAKRAQAC7thQV25-qe8JhyOhHgQ"
     await Client.send_sticker(sticker)
