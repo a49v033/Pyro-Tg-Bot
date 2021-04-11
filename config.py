@@ -4,7 +4,7 @@
 
 import os
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = "1747947602:AAFpjTf-DpvaIqFRMY0_OnsynH2-E7OWd2o"
 
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
+API_ID = 2294033
+API_HASH = "6a8fba10d5e2747b3c101c03d2d22752"
